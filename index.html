@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid slateblue;
+            overflow: scroll;
+        }
+        .ilippsis{
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            border: 1px solid palegreen;
+            text-overflow: ellipsis;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <p title="consectetur adipisicing elit. Beatae, minus." class="ilippsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, minus.</p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My text Box 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore voluptate possimus, nesciunt ullam reiciendis totam! Earum commodi nam quibusdam! Quidem eligendi a tenetur mollitia molestiae consectetur necessitatibus. Nostrum veritatis ducimus exercitationem nisi similique, omnis odio. Perferendis officia cumque fuga doloremque dolores sequi nihil obcaecati repellat? Obcaecati praesentium dignissimos, maiores sunt aspernatur quidem, earum nobis, reiciendis expedita quia eum! Sapiente ipsa aliquid totam autem voluptatem eius necessitatibus nisi deleniti, distinctio delectus ratione nihil, quae velit incidunt est odio. Voluptatum maiores nemo esse! Fugit, numquam voluptates? Explicabo, repellat. Dolor quae mollitia tempore quo porro molestias! Corporis optio error excepturi incidunt maiores deleniti quia doloremque alias praesentium beatae magni dicta, blanditiis inventore temporibus molestias rerum, quaerat repellendus, vero ea culpa? Minima cupiditate tenetur consequuntur optio repellendus possimus ad, ut magni officia quod blanditiis omnis repudiandae inventore alias, facilis repellat modi. Quidem maxime quisquam, commodi labore autem perferendis accusamus quia ullam. Sed laboriosam voluptas quos nostrum numquam enim aspernatur quae, necessitatibus facere odio porro accusantium quibusdam! Maxime officiis ex deleniti accusamus officia iusto ea aperiam iure beatae asperiores, accusantium, voluptates inventore autem, magni provident quam. Aliquid neque ut earum numquam? Illo, velit perferendis autem dolor vel excepturi libero corporis consequatur laboriosam repudiandae. Natus!
+            </p>
+        </div>
+        <div id="box-2" class="box">
+            <h3>My text Box 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iure. Esse aliquid ut, ipsam unde officia minus praesentium distinctio aliquam saepe rem tenetur sapiente dolores cum perferendis neque iste eos quibusdam nemo maiores expedita voluptatum! Modi sunt aspernatur, ducimus dolorum consequuntur minima explicabo exercitationem nostrum amet soluta optio eveniet nihil ipsum assumenda autem quidem earum ut sit. Similique deserunt ducimus, voluptate facilis dolorum quis. Tempora sunt quasi molestias, tempore dolores natus omnis impedit, expedita ratione cupiditate, adipisci vel sequi sapiente architecto accusamus numquam at harum ullam nisi debitis! Blanditiis vel dolorum libero doloribus voluptatibus tempora, illum modi qui enim. Reprehenderit tenetur molestias sequi debitis quo obcaecati porro nobis, molestiae doloremque ratione distinctio repellat fuga unde optio nesciunt veritatis delectus accusamus expedita facilis sapiente perspiciatis ab explicabo laudantium hic? Voluptatum esse, voluptate et nobis neque maxime amet repellendus rem ratione, temporibus adipisci molestias velit, harum nostrum. Nisi, consequatur velit nam labore eius cupiditate, id reprehenderit iste, expedita quisquam non facere ex quos laboriosam possimus sint. Error in consequatur eaque recusandae? Ut quam accusantium libero impedit commodi temporibus ab atque, aperiam eveniet et! In quo est repellat numquam possimus minima asperiores, fuga nam ipsam, modi ducimus accusantium, et dolores animi recusandae corporis.</p>
+        </div>
+    </section>
 </body>
 </html>
